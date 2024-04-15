@@ -11,8 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    double enteredint = in.nextDouble();
-    double result= enteredint*enteredint;
+    int enteredint = in.nextDouble();
+    int result= enteredint*enteredint;
     System.out.println(result);
 
   }
